@@ -42,11 +42,9 @@ def upload_image():
         save_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(save_path)
 
-        # ====== 检测逻辑（此处为占位） ======
-        # 检测图片是否合格，比如 crack_detect(save_path)
-        detection_passed = True  # 模拟检测通过
-        # ====================================
-
+        # ======       检测逻辑         ======
+        detection_passed = pic_check(filename, save_path);
+        
         if detection_passed:
             try:
                 sql = "INSERT INTO images (filename, filepath) VALUES (%s, %s)"
@@ -60,6 +58,39 @@ def upload_image():
             return jsonify({'status': 'fail', 'msg': 'Image failed detection'}), 400
 
     return jsonify({'status': 'fail', 'msg': 'Invalid file type'}), 400
+
+#爆裂历史检测
+@app.route('/get_crack_records', methods=['POST'])
+def get_crack_records():
+    try:
+        data = request.get_json()
+        user_id = data.get('userID')
+
+        if not user_id:
+            return jsonify({'status': 'fail', 'msg': 'Missing userID'}), 400
+
+        sql = "SELECT id, image_path, detected_result_path, created_at FROM crack_records WHERE user_id = %s ORDER BY created_at DESC"
+        cursor.execute(sql, (user_id,))
+        results = cursor.fetchall()
+
+        # 构造响应数据
+        records = []
+        for row in results:
+            record = {
+                'id': row[0],
+                'pic': {
+                    'base': row[1],
+                    'overlay': row[2]
+                },
+                'created_at': row[3].strftime('%Y-%m-%d %H:%M:%S') if isinstance(row[3], datetime) else str(row[3])
+            }
+            records.append(record)
+
+        return jsonify({'status': 'success', 'records': records}), 200
+
+    except Exception as e:
+        print("Error:", e)
+        return jsonify({'status': 'fail', 'msg': f'Server error: {e}'}), 500
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=8899)
