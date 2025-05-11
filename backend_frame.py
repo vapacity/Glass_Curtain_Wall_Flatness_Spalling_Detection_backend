@@ -60,7 +60,7 @@ def upload_image():
     return jsonify({'status': 'fail', 'msg': 'Invalid file type'}), 400
 
 #爆裂历史检测
-@app.route('/get_crack_records', methods=['POST'])
+@app.route('/get_crack_records',  methods=['POST'])
 def get_crack_records():
     try:
         data = request.get_json()
