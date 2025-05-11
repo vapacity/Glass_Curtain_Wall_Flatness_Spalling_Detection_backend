@@ -28,8 +28,8 @@ model.eval()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = model.to(device)
 
-upload_user_name = "flatness-detection"
-upload_user_password = "tongji-icw-3455"
+upload_user_name = "spalling-detection"
+upload_user_password = "tongji-icw-1805"
 oss_url = "http://110.42.214.164:9000"
 
 # 配置 MySQL 数据库连接
