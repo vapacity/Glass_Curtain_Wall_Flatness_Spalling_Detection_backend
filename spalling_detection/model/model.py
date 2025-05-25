@@ -10,7 +10,7 @@ from torchvision import datasets, transforms
 import os
 # 加载模型
 model = models.resnet34(pretrained=False)
-num_features = model.fc.in_features
+num_features = model.fc.in_features 
 model.fc = nn.Linear(num_features, 2)  # 假设是二分类任务
 model.load_state_dict(torch.load('resnet34_model.pth'))  # 加载训练好的权重
 model.eval()  # 切换到评估模式

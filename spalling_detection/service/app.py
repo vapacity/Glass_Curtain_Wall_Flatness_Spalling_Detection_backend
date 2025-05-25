@@ -1,7 +1,5 @@
 from datetime import datetime
 from flask import Flask, request, jsonify, send_from_directory
-# from flask_cors import CORS  # 导入 CORS
-
 import torch
 import torch.nn as nn
 from torchvision import transforms
@@ -12,7 +10,7 @@ import os
 import requests
 import shutil
 from werkzeug.utils import secure_filename
-import script
+import spalling.model.model as model
 import pymysql
 import re
 
@@ -52,7 +50,7 @@ def clean_path(path):
     return '/'.join(clean_parts)
 
 # 下载图片
-def downloadImage(url):
+def download_image(url):
     try:
         response = requests.get(url, stream=True)
         if response.status_code == 200:
@@ -181,7 +179,7 @@ def classify():
     image_url = request.form['url']
     user_name = request.form['username']
 
-    image_path = downloadImage(image_url)
+    image_path = download_image(image_url)
     if image_path is None:
         return jsonify({'error': 'Failed to download image from the URL'}), 400
 
@@ -222,7 +220,7 @@ def show_defect():
         return jsonify({'error': 'Failed to download image from the URL'}), 400
 
     try:
-        processed_image_path = script.process_image(image_path)
+        processed_image_path = model.process_image(image_path)
         timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
         target_url = f"user/result/{timestamp}.jpg"
         upload_url = upload_image(processed_image_path, target_url, oss_url, upload_user_name, upload_user_password)

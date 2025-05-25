@@ -7,7 +7,7 @@ from datetime import datetime
 from unittest.mock import patch, MagicMock
 
 # 导入被测试的应用
-from app import app, downloadImage, upload_image
+from spalling.service.app import app, downloadImage, upload_image
 
 upload_user_name = "spalling-detection"
 upload_user_password = "tongji-icw-1805"
