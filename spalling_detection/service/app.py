@@ -10,7 +10,7 @@ import os
 import requests
 import shutil
 from werkzeug.utils import secure_filename
-import spalling.model.model as model
+import spalling_detection.model.model as model
 import pymysql
 import re
 
