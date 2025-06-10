@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p test/unit_tests test/performance_tests test/test_images test/test_reports)"
+    ],
+    "deny": []
+  }
+}
