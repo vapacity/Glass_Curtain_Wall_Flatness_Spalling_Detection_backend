@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir -p test/unit_tests test/performance_tests test/test_images test/test_reports)"
+      "Bash(mkdir -p test/unit_tests test/performance_tests test/test_images test/test_reports)",
+      "Bash(grep -B5 -A5 \"BASE_URL\" /Users/I765180/Documents/homework/Glass_Curtain_Wall_Flatness_Spalling_Detection_backend/flatness_detection/test/test.py)",
+      "Bash(git add test/test.py)",
+      "Bash(git commit -m \"$(cat <<'EOF'\n完善平整度检测集成测试代码注释\n\n- 修复了被注释的BASE_URL常量，恢复服务地址配置\n- 为test.py添加了详细的中文注释，包括模块说明、函数文档字符串等\n- 改进了每个测试函数的文档，明确说明了接口功能、参数和返回值\n- 增加了对fixture的详细说明，便于理解测试流程\n- 保持了原有测试逻辑不变，仅增强了代码可读性\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": []
   }

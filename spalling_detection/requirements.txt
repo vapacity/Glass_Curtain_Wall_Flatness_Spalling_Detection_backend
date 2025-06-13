@@ -1,0 +1,13 @@
+flask
+Flask_Cors
+torch
+torchvision
+numpy
+requests
+opencv_contrib_python
+opencv_python
+Pillow
+Werkzeug
+pymysql
+cryptography
+
