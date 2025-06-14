@@ -1,0 +1,550 @@
+{
+  "start_time": "2025-06-14T15:48:25.938508",
+  "requests": [
+    {
+      "timestamp": "2025-06-14T15:48:26.042623",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 102.58341599546839,
+      "response_length": 4082,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:48:43.510706",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 14496.364332997473,
+      "response_length": 265,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T15:48:48.732654",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 92.6545830006944,
+      "response_length": 4082,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:14.415081",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 23967.104916999233,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:21.479947",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 5130.363374992157,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:22.816867",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 80.85054099501576,
+      "response_length": 4760,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:25.822969",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 92.81679200648796,
+      "response_length": 4760,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:28.796584",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 80.8731249999255,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:30.478239",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 86.72916700015776,
+      "response_length": 4760,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:39.427034",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6113.401165988762,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:42.294608",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 111.16399998718407,
+      "response_length": 5099,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:49.697137",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6266.8449170014355,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:55.251529",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 4549.867708992679,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:56.348621",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 84.41770900390111,
+      "response_length": 1136,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:58.340896",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 156.41462498751935,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:49:59.757887",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 99.68429199943785,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:02.467848",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 102.97649999847636,
+      "response_length": 5777,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:09.984683",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 5445.34524998744,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:18.677010",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6955.862999995588,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:25.897585",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 4769.88112500112,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:41.130193",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 13002.71812498977,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:43.999176",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 95.23570899909828,
+      "response_length": 7133,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:53.220295",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6322.716666007182,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:50:55.403103",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 119.50054200133309,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:05.437263",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8453.32166600565,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:08.402386",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 190.57924998924136,
+      "response_length": 7811,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:29.243948",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 19653.16587500274,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:31.078404",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 108.71220800618175,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:33.146083",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 122.89108299592044,
+      "response_length": 1136,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:34.791709",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 93.26149999105837,
+      "response_length": 8150,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:36.744833",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 76.94483301020227,
+      "response_length": 8150,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:45.799973",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6093.830249999883,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:47.514284",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 85.00254200771451,
+      "response_length": 3440,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:56.246171",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6432.614416000433,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:51:59.307976",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 84.20437500171829,
+      "response_length": 8828,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:21.963242",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 20168.310541994288,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:24.879427",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 83.44420799403451,
+      "response_length": 9167,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:25.993037",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 79.16487500187941,
+      "response_length": 9167,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:34.749688",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6856.162374999258,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:42.194226",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 5518.8821670017205,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:43.325597",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 85.61383299820591,
+      "response_length": 9845,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:52:53.104278",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7387.940750006237,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:03.350921",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7517.96408300288,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:13.587604",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7725.165708994609,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:14.782850",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 118.07262498768978,
+      "response_length": 1166,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:17.294935",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 88.86841699131764,
+      "response_length": 10862,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:18.575265",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 116.69895800878294,
+      "response_length": 10862,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:25.910166",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 5208.90887499263,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:49.760926",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 21739.048125004047,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:53:59.056846",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6361.683166993316,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:54:01.898334",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 110.26779099483974,
+      "response_length": 11879,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:54:11.153414",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7886.211207995075,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:54:34.800428",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 20742.743416994927,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:54:37.635406",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 77.08620800985955,
+      "response_length": 12557,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:54:48.197106",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8907.217041996773,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:12.103135",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 22350.89462500764,
+      "response_length": 202,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:13.617228",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 152.17837500676978,
+      "response_length": 13235,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:15.503713",
+      "type": "GET",
+      "name": "/flatness/getDetail",
+      "response_time": 226.00270800467115,
+      "response_length": 1136,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:25.720121",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8465.65958300198,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:34.170413",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7327.901332988404,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:36.708445",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 98.60595800273586,
+      "response_length": 13913,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:55.507633",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 16809.199124996667,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:57.376646",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 126.3862500054529,
+      "response_length": 14252,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:55:58.831281",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 183.49316700187046,
+      "response_length": 14252,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:56:12.158353",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 11989.118083991343,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:56:13.584086",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 180.0737500016112,
+      "response_length": 14591,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:56:23.017896",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7286.693957998068,
+      "response_length": 208,
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-14T15:56:33.050444",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8559.340084000723,
+      "response_length": 208,
+      "status_code": 200
+    }
+  ],
+  "errors": []
+}

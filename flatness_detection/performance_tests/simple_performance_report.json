@@ -1,0 +1,27 @@
+{
+  "test_time": "2025-06-14T15:43:42.990137",
+  "results": [
+    {
+      "endpoint": "GET http://110.42.214.164:9000/oss/download/flatness-detection/user/upload/20250107145947.jpg",
+      "total_requests": 5,
+      "success_count": 5,
+      "success_rate": 100.0,
+      "avg_response_time": 3917.436361312866,
+      "min_response_time": 2135.806083679199,
+      "max_response_time": 5527.263879776001,
+      "std_dev": 1235.7482077217633,
+      "errors": []
+    },
+    {
+      "endpoint": "GET http://110.42.214.164:9000/oss/download/flatness-detection/user/upload/20250107155845.jpg",
+      "total_requests": 5,
+      "success_count": 5,
+      "success_rate": 100.0,
+      "avg_response_time": 3943.285036087036,
+      "min_response_time": 2911.1342430114746,
+      "max_response_time": 5789.674997329712,
+      "std_dev": 1091.050378840475,
+      "errors": []
+    }
+  ]
+}

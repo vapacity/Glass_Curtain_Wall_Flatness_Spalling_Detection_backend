@@ -467,6 +467,7 @@ def divide():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 @app.route("/flatness/history",methods=['GET'])
+
 def get_history():
     user_name = request.args.get('username')
     if not user_name:
@@ -477,6 +478,7 @@ def get_history():
     else:
         return jsonify({"error": "History not found"}), 404
 @app.route("/flatness/getDetail",methods=['GET'])
+
 def get_detail():
     user_name = request.args.get('username')
     output_id = request.args.get('outputId')

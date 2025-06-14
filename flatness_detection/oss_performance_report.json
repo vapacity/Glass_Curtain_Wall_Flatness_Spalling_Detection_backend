@@ -1,0 +1,35 @@
+{
+  "test_time": "2025-06-14T15:32:15.526566",
+  "oss_url": "http://110.42.214.164:9000",
+  "results": {
+    "upload_results": {},
+    "download_results": [],
+    "concurrent_results": [
+      {
+        "success": false,
+        "error": "Status code: 400",
+        "upload_time": 578.7277221679688
+      },
+      {
+        "success": false,
+        "error": "Status code: 400",
+        "upload_time": 602.6909351348877
+      },
+      {
+        "success": false,
+        "error": "Status code: 400",
+        "upload_time": 605.0539016723633
+      },
+      {
+        "success": false,
+        "error": "Status code: 400",
+        "upload_time": 614.717960357666
+      },
+      {
+        "success": false,
+        "error": "Status code: 400",
+        "upload_time": 1240.5152320861816
+      }
+    ]
+  }
+}

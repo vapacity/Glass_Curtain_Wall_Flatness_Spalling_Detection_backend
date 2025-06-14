@@ -1,0 +1,254 @@
+{
+  "test_time": "2025-06-14T15:45:44.158499",
+  "test_results": {
+    "flatness_baseline": [
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 2178.413152694702,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 2383.2809925079346,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1761.7270946502686,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1754.5809745788574,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1754.572868347168,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1700.4809379577637,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1814.9628639221191,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1729.625940322876,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1813.9100074768066,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 1813.7738704681396,
+        "response_size": 265
+      }
+    ],
+    "spalling_baseline": [
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 666.6591167449951,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 597.383975982666,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 656.2609672546387,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 1607.2218418121338,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 636.4641189575195,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 612.6551628112793,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 1763.0321979522705,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 1602.396011352539,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 611.3321781158447,
+        "response_size": 50
+      },
+      {
+        "success": false,
+        "status_code": 400,
+        "response_time": 620.0051307678223,
+        "response_size": 50
+      }
+    ],
+    "concurrent_5": [
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 8005.5108070373535,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 8001.436233520508,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 8005.141258239746,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 8003.2007694244385,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 8004.446744918823,
+        "response_size": 265
+      }
+    ],
+    "concurrent_10": [
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39811.96403503418,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39811.53702735901,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39811.84792518616,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39813.82203102112,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39811.44714355469,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39812.43062019348,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39811.299085617065,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39813.125133514404,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39813.27199935913,
+        "response_size": 265
+      },
+      {
+        "success": false,
+        "status_code": 500,
+        "response_time": 39813.81297111511,
+        "response_size": 265
+      }
+    ],
+    "system_resources": {
+      "cpu_usage": [
+        18.1,
+        22.2,
+        25.9,
+        20.1,
+        17.2,
+        12.4,
+        9.7,
+        9.7,
+        9.3,
+        17.7
+      ],
+      "memory_usage": [
+        78.9,
+        91.9,
+        89.0,
+        80.9,
+        77.0,
+        77.7,
+        77.9,
+        78.1,
+        79.4,
+        80.5
+      ]
+    }
+  },
+  "system_info": {
+    "cpu_count": 12,
+    "total_memory": 18.0,
+    "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]"
+  }
+}

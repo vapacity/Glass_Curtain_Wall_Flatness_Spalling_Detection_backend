@@ -1,0 +1,222 @@
+{
+  "start_time": "2025-06-14T14:39:38.721032",
+  "requests": [
+    {
+      "timestamp": "2025-06-14T14:39:38.734510",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 12.004500000330154,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:40.283541",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 11.272833005932625,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:41.881481",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8.898167005099822,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:45.152462",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 9.656750000431202,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:47.742083",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 9.402916999533772,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:49.434347",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 8.715083000424784,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:52.096942",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 10.696750003262423,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:54.107133",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 9.193958998366725,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:55.987834",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 8.740959005081095,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:39:58.903165",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 11.614499999268446,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:01.225908",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 6.057792001229245,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:03.465990",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 4.595499995048158,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:04.859199",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 10.881124995648861,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:06.033212",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 8.97212499694433,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:07.427107",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7.256124998093583,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:08.925295",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 10.693332995288074,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:13.555422",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 10.88420800078893,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:18.081970",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 10.657624996383674,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:19.714598",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 8.10533299954841,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:21.957139",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 4.813332998310216,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:23.163165",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 9.784709000086877,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:27.947888",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 11.162667004100513,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:29.109092",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 10.367458999098744,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:30.372641",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 9.094542001548689,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:33.295799",
+      "type": "GET",
+      "name": "/flatness/history",
+      "response_time": 11.402333999285474,
+      "response_length": 4179,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:34.910438",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 9.94083300611237,
+      "response_length": 4177,
+      "status_code": null
+    },
+    {
+      "timestamp": "2025-06-14T14:40:36.189224",
+      "type": "POST",
+      "name": "/flatness/detect",
+      "response_time": 7.296083000255749,
+      "response_length": 4177,
+      "status_code": null
+    }
+  ],
+  "errors": []
+}
